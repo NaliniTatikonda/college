@@ -1,0 +1,52 @@
+body{
+    width:100vw;
+    height:100vh;
+    background: repeating-linear-gradient(60deg,rgb(49, 49, 188),rgb(32, 117, 150),violet);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size:50px;
+    text-align:center;
+}
+.reg{
+    width:500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius :10px;
+    border:2px solid black;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:350px;
+    height:400px;
+    padding:10px;
+    margin:10px;
+    margin-left:70px;
+    display: flex;
+    justify-content: center;
+
+}
+input{
+    margin-top:10px;
+    margin-bottom:10px;
+    height:10px;
+    padding:5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+button{
+    padding:5px;
+    background-color: aqua;
+    margin-top:20px;
+
+}
+
